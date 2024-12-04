@@ -1,0 +1,129 @@
+timestamp,message
+1733294668673,[2024-12-04 06:44:25.033 ip-10-2-149-208.ec2.internal:7 INFO utils.py:27] RULE_JOB_STOP_SIGNAL_FILENAME: None
+1733294668673,INFO:sagemaker-containers:Imported framework sagemaker_xgboost_container.training
+1733294668673,INFO:sagemaker-containers:Failed to parse hyperparameter objective value reg:squarederror to Json.
+1733294668673,Returning the value itself
+1733294668674,INFO:sagemaker-containers:No GPUs detected (normal if no gpus installed)
+1733294668674,INFO:sagemaker_xgboost_container.training:Running XGBoost Sagemaker in algorithm mode
+1733294668674,"INFO:root:Determined delimiter of CSV input is ','"
+1733294668674,"INFO:root:Determined delimiter of CSV input is ','"
+1733294668674,"INFO:root:Determined delimiter of CSV input is ','"
+1733294668674,"INFO:root:Determined delimiter of CSV input is ','"
+1733294668674,INFO:root:Single node training.
+1733294668674,"[06:44:25] 2056x21 matrix with 43176 entries loaded from /opt/ml/input/data/train?format=csv&label_column=0&delimiter=,"
+1733294668674,"[06:44:25] 441x21 matrix with 9261 entries loaded from /opt/ml/input/data/validation?format=csv&label_column=0&delimiter=,"
+1733294668674,[2024-12-04 06:44:25.129 ip-10-2-149-208.ec2.internal:7 INFO json_config.py:91] Creating hook from json_config at /opt/ml/input/config/debughookconfig.json.
+1733294668674,[2024-12-04 06:44:25.130 ip-10-2-149-208.ec2.internal:7 INFO hook.py:201] tensorboard_dir has not been set for the hook. SMDebug will not be exporting tensorboard summaries.
+1733294668674,[2024-12-04 06:44:25.130 ip-10-2-149-208.ec2.internal:7 INFO profiler_config_parser.py:102] User has disabled profiler.
+1733294668674,[2024-12-04 06:44:25.131 ip-10-2-149-208.ec2.internal:7 INFO hook.py:255] Saving to /opt/ml/output/tensors
+1733294668674,[2024-12-04 06:44:25.131 ip-10-2-149-208.ec2.internal:7 INFO state_store.py:77] The checkpoint config file /opt/ml/input/config/checkpointconfig.json does not exist.
+1733294668674,INFO:root:Debug hook created from config
+1733294668674,INFO:root:Train matrix has 2056 rows
+1733294668674,INFO:root:Validation matrix has 441 rows
+1733294668674,[06:44:25] WARNING: /workspace/src/learner.cc:328: 
+1733294668674,"Parameters: { num_round } might not be used.
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases."
+1733294668674,[0]#011train-rmse:62.53603#011validation-rmse:62.41687
+1733294668674,[2024-12-04 06:44:25.137 ip-10-2-149-208.ec2.internal:7 INFO hook.py:423] Monitoring the collections: metrics
+1733294668674,[2024-12-04 06:44:25.140 ip-10-2-149-208.ec2.internal:7 INFO hook.py:486] Hook is writing from the hook with pid: 7
+1733294668674,[1]#011train-rmse:56.34509#011validation-rmse:56.26135
+1733294668674,[2]#011train-rmse:50.79512#011validation-rmse:50.69060
+1733294668674,[3]#011train-rmse:45.77182#011validation-rmse:45.67708
+1733294668674,[4]#011train-rmse:41.25022#011validation-rmse:41.16225
+1733294668674,[5]#011train-rmse:37.20476#011validation-rmse:37.10015
+1733294668674,[6]#011train-rmse:33.54550#011validation-rmse:33.44749
+1733294668674,[7]#011train-rmse:30.24329#011validation-rmse:30.15045
+1733294668674,[8]#011train-rmse:27.26714#011validation-rmse:27.19070
+1733294668674,[9]#011train-rmse:24.58744#011validation-rmse:24.51713
+1733294668674,[10]#011train-rmse:22.18644#011validation-rmse:22.14380
+1733294668674,[11]#011train-rmse:20.02415#011validation-rmse:19.99049
+1733294668675,[12]#011train-rmse:18.09334#011validation-rmse:18.06302
+1733294668675,[13]#011train-rmse:16.33735#011validation-rmse:16.31745
+1733294668675,[14]#011train-rmse:14.76833#011validation-rmse:14.75787
+1733294668675,[15]#011train-rmse:13.35008#011validation-rmse:13.34773
+1733294668675,[16]#011train-rmse:12.08180#011validation-rmse:12.09329
+1733294668675,[17]#011train-rmse:10.95326#011validation-rmse:10.97588
+1733294668675,[18]#011train-rmse:9.92385#011validation-rmse:9.95121
+1733294668675,[19]#011train-rmse:9.00467#011validation-rmse:9.04311
+1733294668675,[20]#011train-rmse:8.17860#011validation-rmse:8.22734
+1733294668675,[21]#011train-rmse:7.45204#011validation-rmse:7.50902
+1733294668675,[22]#011train-rmse:6.79966#011validation-rmse:6.85900
+1733294668675,[23]#011train-rmse:6.20640#011validation-rmse:6.27329
+1733294668675,[24]#011train-rmse:5.69894#011validation-rmse:5.77991
+1733294668675,[25]#011train-rmse:5.23268#011validation-rmse:5.32852
+1733294668675,[26]#011train-rmse:4.82097#011validation-rmse:4.93090
+1733294668675,[27]#011train-rmse:4.46157#011validation-rmse:4.59204
+1733294668675,[28]#011train-rmse:4.14382#011validation-rmse:4.29370
+1733294668675,[29]#011train-rmse:3.85393#011validation-rmse:4.01683
+1733294668675,[30]#011train-rmse:3.60937#011validation-rmse:3.78380
+1733294668675,[31]#011train-rmse:3.39000#011validation-rmse:3.57777
+1733294668675,[32]#011train-rmse:3.20787#011validation-rmse:3.40296
+1733294668675,[33]#011train-rmse:3.03166#011validation-rmse:3.23832
+1733294668675,[34]#011train-rmse:2.88181#011validation-rmse:3.10038
+1733294668675,[35]#011train-rmse:2.75793#011validation-rmse:2.98338
+1733294668675,[36]#011train-rmse:2.63431#011validation-rmse:2.86809
+1733294668675,[37]#011train-rmse:2.53762#011validation-rmse:2.78135
+1733294668675,[38]#011train-rmse:2.46562#011validation-rmse:2.71416
+1733294668675,[39]#011train-rmse:2.39893#011validation-rmse:2.65345
+1733294668675,[40]#011train-rmse:2.33822#011validation-rmse:2.59900
+1733294668675,[41]#011train-rmse:2.28655#011validation-rmse:2.54924
+1733294668675,[42]#011train-rmse:2.24292#011validation-rmse:2.51306
+1733294668675,[43]#011train-rmse:2.18745#011validation-rmse:2.46557
+1733294668675,[44]#011train-rmse:2.14088#011validation-rmse:2.42661
+1733294668676,[45]#011train-rmse:2.11002#011validation-rmse:2.40157
+1733294668676,[46]#011train-rmse:2.08514#011validation-rmse:2.38155
+1733294668676,[47]#011train-rmse:2.04958#011validation-rmse:2.35644
+1733294668676,[48]#011train-rmse:2.02739#011validation-rmse:2.34046
+1733294668676,[49]#011train-rmse:1.99597#011validation-rmse:2.31459
+1733294668676,[50]#011train-rmse:1.97116#011validation-rmse:2.29842
+1733294668676,[51]#011train-rmse:1.95567#011validation-rmse:2.28624
+1733294668676,[52]#011train-rmse:1.93055#011validation-rmse:2.26680
+1733294668676,[53]#011train-rmse:1.91841#011validation-rmse:2.26153
+1733294668676,[54]#011train-rmse:1.90549#011validation-rmse:2.25197
+1733294668676,[55]#011train-rmse:1.89406#011validation-rmse:2.24649
+1733294668676,[56]#011train-rmse:1.88225#011validation-rmse:2.23532
+1733294668676,[57]#011train-rmse:1.86194#011validation-rmse:2.21926
+1733294668676,[58]#011train-rmse:1.83830#011validation-rmse:2.20333
+1733294668676,[59]#011train-rmse:1.82865#011validation-rmse:2.19619
+1733294668676,[60]#011train-rmse:1.81348#011validation-rmse:2.19166
+1733294668676,[61]#011train-rmse:1.79821#011validation-rmse:2.18445
+1733294668676,[62]#011train-rmse:1.78571#011validation-rmse:2.17118
+1733294668676,[63]#011train-rmse:1.77397#011validation-rmse:2.16634
+1733294668676,[64]#011train-rmse:1.76522#011validation-rmse:2.16203
+1733294668676,[65]#011train-rmse:1.75436#011validation-rmse:2.15378
+1733294668676,[66]#011train-rmse:1.74376#011validation-rmse:2.14761
+1733294668676,[67]#011train-rmse:1.73264#011validation-rmse:2.14245
+1733294668676,[68]#011train-rmse:1.72369#011validation-rmse:2.14253
+1733294668676,[69]#011train-rmse:1.71374#011validation-rmse:2.13611
+1733294668676,[70]#011train-rmse:1.70529#011validation-rmse:2.13277
+1733294668676,[71]#011train-rmse:1.69538#011validation-rmse:2.12519
+1733294668676,[72]#011train-rmse:1.68706#011validation-rmse:2.12367
+1733294668676,[73]#011train-rmse:1.67780#011validation-rmse:2.12403
+1733294668676,[74]#011train-rmse:1.66867#011validation-rmse:2.12262
+1733294668676,[75]#011train-rmse:1.66235#011validation-rmse:2.11854
+1733294668676,[76]#011train-rmse:1.65302#011validation-rmse:2.11326
+1733294668676,[77]#011train-rmse:1.64665#011validation-rmse:2.10779
+1733294668676,[78]#011train-rmse:1.63919#011validation-rmse:2.10774
+1733294668676,[79]#011train-rmse:1.63367#011validation-rmse:2.10800
+1733294668677,[80]#011train-rmse:1.62929#011validation-rmse:2.10397
+1733294668677,[81]#011train-rmse:1.62290#011validation-rmse:2.10202
+1733294668677,[82]#011train-rmse:1.61652#011validation-rmse:2.09463
+1733294668677,[83]#011train-rmse:1.61332#011validation-rmse:2.09121
+1733294668677,[84]#011train-rmse:1.60925#011validation-rmse:2.09093
+1733294668677,[85]#011train-rmse:1.60198#011validation-rmse:2.08666
+1733294668677,[86]#011train-rmse:1.59855#011validation-rmse:2.08380
+1733294668677,[87]#011train-rmse:1.59002#011validation-rmse:2.07763
+1733294668677,[88]#011train-rmse:1.58300#011validation-rmse:2.07282
+1733294668677,[89]#011train-rmse:1.57601#011validation-rmse:2.07008
+1733294668677,[90]#011train-rmse:1.56965#011validation-rmse:2.06770
+1733294668677,[91]#011train-rmse:1.56235#011validation-rmse:2.06601
+1733294668677,[92]#011train-rmse:1.55610#011validation-rmse:2.06470
+1733294668677,[93]#011train-rmse:1.55108#011validation-rmse:2.06043
+1733294668677,[94]#011train-rmse:1.54072#011validation-rmse:2.05448
+1733294668677,[95]#011train-rmse:1.53597#011validation-rmse:2.05222
+1733294668677,[96]#011train-rmse:1.53109#011validation-rmse:2.04853
+1733294668677,[97]#011train-rmse:1.52294#011validation-rmse:2.04718
+1733294668677,[98]#011train-rmse:1.51577#011validation-rmse:2.04325
+1733294668677,[99]#011train-rmse:1.50854#011validation-rmse:2.04248
